@@ -8533,6 +8533,39 @@ thead {
     padding: 8px 16px !important;
     margin: 0 !important;
   }
+  .kode_services_caption p {
+    text-align: center !important;
+}
+.kode_banner_caption ul {
+    float: right;
+    margin: 0px;
+    padding: 0px 0px 0;
+    text-align: start !important;
+    width: 100%;
+}
+    .kode_banner_caption ul li a {
+        margin-left: 0px !important;
+        position: relative;
+		            margin-right: 25px;
+    }
+	.kode_content_banner-contact {
+
+    padding: 70px 0px;
+
+}
+.custom-table img{
+	width: 40% !important;
+}
+.kode_blog_detail_content ul {
+    /* float: left; */
+    width: 100%;
+    margin: 0 0 0px -14px;
+}
+.circle {
+
+    margin: 5px 27px;
+
+}
 }
 
 /* For extra small phones (320px - 400px) */
@@ -8548,4 +8581,5 @@ thead {
     font-size: 13px !important;
     line-height: 18px !important;
   }
+
 }
