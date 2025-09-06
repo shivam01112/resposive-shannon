@@ -8457,4 +8457,12 @@ thead {
 .kode_banner_caption h3 {
     font-size: 20px;
 }
+    .kode_copyright_footer p {
+        margin: 6px 0px;
+        font-size: 12px;
+    }
+	.kode_content_banner-s2 {
+    padding: 70px 0px;
+
+}
 }
