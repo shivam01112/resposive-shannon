@@ -8351,4 +8351,110 @@ thead {
  
         width: 100%;
     }
+
+   .image-table-section .table-container {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0 10px;
+  }
+
+  .image-table-section .offer-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  /* Hide table header */
+  .image-table-section .offer-table thead {
+    display: none;
+  }
+
+  /* Make rows into cards */
+  .image-table-section .offer-table tr {
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    overflow: hidden;
+  }
+
+  .image-table-section .offer-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-top: 1px solid #f1f1f1;
+  }
+
+  .image-table-section .offer-table td:first-child {
+    justify-content: center;
+    border-top: none;
+    padding: 12px;
+  }
+
+  .image-table-section .offer-table td img {
+    max-width: 120px;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  /* Add labels dynamically */
+  .image-table-section .offer-table td:nth-child(2)::before {
+    content: "Company: ";
+    font-weight: 600;
+    color: #555;
+  }
+  .image-table-section .offer-table td:nth-child(3)::before {
+    content: "DRHP: ";
+    font-weight: 600;
+    color: #555;
+  }
+  .image-table-section .offer-table td:nth-child(4)::before {
+    content: "RHP: ";
+    font-weight: 600;
+    color: #555;
+  }
+  .image-table-section .offer-table td:nth-child(5)::before {
+    content: "Prospectus: ";
+    font-weight: 600;
+    color: #555;
+  }
+  .image-table-section .offer-table td:nth-child(6)::before {
+    content: "Other: ";
+    font-weight: 600;
+    color: #555;
+  }
+
+  /* Links look like buttons */
+  .image-table-section .offer-table a {
+    color: #2563eb;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 4px 8px;
+
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all 0.2s ease;
+  }
+  .image-table-section .offer-table a:hover {
+    background: #2563eb;
+    color: #fff;
+  }
+    
+      .kode_banner_caption ul li a {
+        margin-left: 28px !important;
+        position: relative;
+       
+    }
+	p{
+		text-align: start !important;
+	}
+	.kode_content_banner-s1 {
+    padding: 69px 0px;
+}
+.kode_banner_caption h3 {
+    font-size: 20px;
+}
 }
